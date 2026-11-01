@@ -9,20 +9,20 @@ Target platforms
 - Ubuntu Linux (development environment)
 - Windows (cross-platform build and testing target)
 
-**Planned technology stack**
-|---------------------|-----------------------------------|
-| Tool / technology   | Purpose |
-|---------------------|-----------------------------------|
-| C++                 | Application logic |
-| Qt 6 Widgets        | Desktop graphical user interface |
-| VS Code             | Code editor |
-| GCC / G++           | C++ compiler |
-| CMake               | Project configuration and build generation |
-| Ninja               | Build tool |
-| Qt Designer         | Optional visual UI design |
-| SQLite              | Planned database for persistent records |
-| STL                 | Data structures and algorithms |
-|---------------------|-----------------------------------|
+
+**Planned Technology Stack**
+
+| Tool / Technology | Purpose |
+|---|---|
+| C++ | Application logic |
+| Qt 6 Widgets | Desktop graphical user interface |
+| VS Code | Code editor |
+| GCC / G++ | C++ compiler |
+| CMake | Project configuration and build generation |
+| Ninja | Build tool |
+| Qt Designer | Optional visual UI design |
+| SQLite | Planned database for persistent records |
+| STL | Data structures and algorithms |
 
 **Qt version note: The Ubuntu environment reports Qt 6.4.2. Qt 6**
 requires C++17 or newer. The project will therefore use C++17 with
